@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123F1568237DC97F00F8D6A0 /* ListOfPersoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123F1567237DC97F00F8D6A0 /* ListOfPersoneTableViewCell.swift */; };
+		12B79A8E237D719200C8FA00 /* EditPrimaryAttributeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B79A8D237D719200C8FA00 /* EditPrimaryAttributeTableViewCell.swift */; };
+		12C0FF3E237DAEA900C6EA76 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0FF3D237DAEA900C6EA76 /* ModelManager.swift */; };
 		12D65C0F237C6001000FDDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C0E237C6001000FDDA4 /* AppDelegate.swift */; };
-		12D65C11237C6001000FDDA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C10237C6001000FDDA4 /* SceneDelegate.swift */; };
-		12D65C13237C6001000FDDA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C12237C6001000FDDA4 /* ViewController.swift */; };
+		12D65C13237C6001000FDDA4 /* ListOfPersoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C12237C6001000FDDA4 /* ListOfPersoneViewController.swift */; };
 		12D65C16237C6001000FDDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D65C14237C6001000FDDA4 /* Main.storyboard */; };
 		12D65C18237C6002000FDDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D65C17237C6002000FDDA4 /* Assets.xcassets */; };
 		12D65C1B237C6002000FDDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D65C19237C6002000FDDA4 /* LaunchScreen.storyboard */; };
+		12D65C23237C6074000FDDA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C22237C6074000FDDA4 /* LoginViewController.swift */; };
+		12D65C25237C70CA000FDDA4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C24237C70CA000FDDA4 /* Constant.swift */; };
+		12D65C27237C811B000FDDA4 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C26237C811B000FDDA4 /* EditViewController.swift */; };
+		12D65C29237C8138000FDDA4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C28237C8138000FDDA4 /* AboutViewController.swift */; };
+		12D65C2B237C9BD8000FDDA4 /* Persone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C2A237C9BD8000FDDA4 /* Persone.swift */; };
+		12D65C2E237C9C40000FDDA4 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C2D237C9C40000FDDA4 /* Attributes.swift */; };
+		12D65C32237C9EA4000FDDA4 /* EditSecondaryAttributeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D65C31237C9EA4000FDDA4 /* EditSecondaryAttributeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		123F1567237DC97F00F8D6A0 /* ListOfPersoneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPersoneTableViewCell.swift; sourceTree = "<group>"; };
+		12B79A8D237D719200C8FA00 /* EditPrimaryAttributeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPrimaryAttributeTableViewCell.swift; sourceTree = "<group>"; };
+		12C0FF3D237DAEA900C6EA76 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
 		12D65C0B237C6001000FDDA4 /* AVSoft_TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVSoft_TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D65C0E237C6001000FDDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12D65C10237C6001000FDDA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12D65C12237C6001000FDDA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12D65C12237C6001000FDDA4 /* ListOfPersoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPersoneViewController.swift; sourceTree = "<group>"; };
 		12D65C15237C6001000FDDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12D65C17237C6002000FDDA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12D65C1A237C6002000FDDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12D65C1C237C6002000FDDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D65C22237C6074000FDDA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		12D65C24237C70CA000FDDA4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		12D65C26237C811B000FDDA4 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		12D65C28237C8138000FDDA4 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		12D65C2A237C9BD8000FDDA4 /* Persone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persone.swift; sourceTree = "<group>"; };
+		12D65C2D237C9C40000FDDA4 /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		12D65C31237C9EA4000FDDA4 /* EditSecondaryAttributeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSecondaryAttributeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1274A89F237F1A6D000AA998 /* ListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				12D65C12237C6001000FDDA4 /* ListOfPersoneViewController.swift */,
+				123F1567237DC97F00F8D6A0 /* ListOfPersoneTableViewCell.swift */,
+			);
+			path = ListScreen;
+			sourceTree = "<group>";
+		};
+		1274A8A0237F1A85000AA998 /* EditScreen */ = {
+			isa = PBXGroup;
+			children = (
+				12D65C26237C811B000FDDA4 /* EditViewController.swift */,
+				12B79A8D237D719200C8FA00 /* EditPrimaryAttributeTableViewCell.swift */,
+				12D65C31237C9EA4000FDDA4 /* EditSecondaryAttributeTableViewCell.swift */,
+			);
+			path = EditScreen;
+			sourceTree = "<group>";
+		};
 		12D65C02237C6001000FDDA4 = {
 			isa = PBXGroup;
 			children = (
@@ -57,14 +94,28 @@
 			isa = PBXGroup;
 			children = (
 				12D65C0E237C6001000FDDA4 /* AppDelegate.swift */,
-				12D65C10237C6001000FDDA4 /* SceneDelegate.swift */,
-				12D65C12237C6001000FDDA4 /* ViewController.swift */,
-				12D65C14237C6001000FDDA4 /* Main.storyboard */,
-				12D65C17237C6002000FDDA4 /* Assets.xcassets */,
+				12D65C24237C70CA000FDDA4 /* Constant.swift */,
+				1274A89F237F1A6D000AA998 /* ListScreen */,
+				1274A8A0237F1A85000AA998 /* EditScreen */,
+				12D65C28237C8138000FDDA4 /* AboutViewController.swift */,
+				12D65C22237C6074000FDDA4 /* LoginViewController.swift */,
+				12D65C2C237C9BE0000FDDA4 /* Models */,
 				12D65C19237C6002000FDDA4 /* LaunchScreen.storyboard */,
+				12D65C14237C6001000FDDA4 /* Main.storyboard */,
 				12D65C1C237C6002000FDDA4 /* Info.plist */,
+				12D65C17237C6002000FDDA4 /* Assets.xcassets */,
 			);
 			path = AVSoft_TestTask;
+			sourceTree = "<group>";
+		};
+		12D65C2C237C9BE0000FDDA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12C0FF3D237DAEA900C6EA76 /* ModelManager.swift */,
+				12D65C2A237C9BD8000FDDA4 /* Persone.swift */,
+				12D65C2D237C9C40000FDDA4 /* Attributes.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12D65C13237C6001000FDDA4 /* ViewController.swift in Sources */,
+				12D65C2E237C9C40000FDDA4 /* Attributes.swift in Sources */,
+				12D65C29237C8138000FDDA4 /* AboutViewController.swift in Sources */,
+				12D65C2B237C9BD8000FDDA4 /* Persone.swift in Sources */,
+				12B79A8E237D719200C8FA00 /* EditPrimaryAttributeTableViewCell.swift in Sources */,
+				12C0FF3E237DAEA900C6EA76 /* ModelManager.swift in Sources */,
+				12D65C32237C9EA4000FDDA4 /* EditSecondaryAttributeTableViewCell.swift in Sources */,
+				12D65C27237C811B000FDDA4 /* EditViewController.swift in Sources */,
+				12D65C23237C6074000FDDA4 /* LoginViewController.swift in Sources */,
+				123F1568237DC97F00F8D6A0 /* ListOfPersoneTableViewCell.swift in Sources */,
+				12D65C13237C6001000FDDA4 /* ListOfPersoneViewController.swift in Sources */,
 				12D65C0F237C6001000FDDA4 /* AppDelegate.swift in Sources */,
-				12D65C11237C6001000FDDA4 /* SceneDelegate.swift in Sources */,
+				12D65C25237C70CA000FDDA4 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY259TWT8G;
 				INFOPLIST_FILE = AVSoft_TestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY259TWT8G;
 				INFOPLIST_FILE = AVSoft_TestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
